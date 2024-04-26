@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Significo</title>
 
-    <!-- Link to CSS -->
-    <link rel="stylesheet" href="style.css">
-
     <!-- Link to Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body theme="black">
-    <main class="w-full">
+    <div class="main w-full">
         <div class="home w-full h-screen relative">
-            <div hidden class="hero-video w-full h-screen absolute top-0 left-0 bg-black overflow-hidden">
-                <video autoplay loop muted class="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" src="https://cdn.significo.com/videos/significo-main-hero.mp4"></video>
+            <div class="hidden herovideo w-full h-screen absolute top-0 left-0 bg-black overflow-hidden">
+                <video autoplay loop muted class="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                    src="https://cdn.significo.com/videos/significo-main-hero.mp4"></video>
             </div>
-            <div class="marquee-container w-full h-screen relative">
-                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] h-96 bg-red-500"></div>
+            <div class="marqueecontainer w-full h-screen relative">
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%]">
+                    <div class="row w-full p-5 bg-red-500 flex items-center gap-5">
+                        <h1 class="font-['PP_Neue_Machina_Inktrap_Medium']">empathetic</h1>
+                        <div class="imgdiv w-[5rem] h-[5rem] bg-yellow-500"></div>
+                    </div>
+                </div>
             </div>
         </div>
-    </main>
+    </div>
 </body>
+
 </html>
