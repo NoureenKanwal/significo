@@ -1,5 +1,15 @@
+:root{
+    --salmon: #EF9D71;
+    --black: #000;
+    --white: wheat;
+    --cyan: #00FFFF;
+    --darksalmon: #740d02;
+    --darkcyan: #033333;
+}
+
+
 *::selection{
-    background-color: #EF9D71;}
+    background-color: var(--salmon);}
 
 body[theme="black"]{
     background-color: #000;
